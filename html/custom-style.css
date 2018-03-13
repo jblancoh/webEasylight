@@ -1,0 +1,6 @@
+.my-list *{
+  list-style: disc !important;
+  color: #fff;
+  margin: 5px 15px;
+
+}

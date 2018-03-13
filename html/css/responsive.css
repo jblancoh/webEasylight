@@ -1,0 +1,156 @@
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .default-title {
+        font-size: 44px
+    }
+    .boxed-version {
+        width: 970px
+    }
+    .boxed-version .main_header_area.sticky {
+        left: 50%;
+        margin-left: -485px;
+        width: 970px
+    }
+    .welcome_area.slider-version {
+        height: 550px
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .boxed-version {
+        width: 750px
+    }
+    .boxed-version .main_header_area.sticky {
+        left: 50%;
+        margin-left: -375px;
+        width: 750px
+    }
+    .default-title {
+        font-size: 36px
+    }
+    .single_about_part .feature_icon:before,
+    .single_about_part .feature_icon:after,
+    .single_about_part .feature_icon {
+        display: none
+    }
+    .welcome_area.slider-version {
+        height: 400px
+    }
+    .welcome_area.slider-version .default-title {
+        font-size: 24px
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .table {
+        position: relative;
+        z-index: 9
+    }
+    .welcome_area_thumb {
+        display: none
+    }
+    .mean-container a.meanmenu-reveal span {
+        background-color: #151515
+    }
+    .mean-container a.meanmenu-reveal {
+        padding: 34px 20px
+    }
+    .cta_text h2 {
+        font-size: 30px
+    }
+    .welcome_video_area {
+        margin-top: 30px
+    }
+    .signup_form_area {
+        padding: 15px
+    }
+    .signup_from .form-control {
+        height: 35px
+    }
+    .signup_form_area>h3 {
+        font-size: 16px
+    }
+    .signupform_area .welcome_text_area>p {
+        font-size: 14px
+    }
+    .boxed-version {
+        width: 320px
+    }
+    .boxed-version .main_header_area.sticky {
+        left: 50%;
+        margin-left: -160px;
+        width: 320px
+    }
+    .default-title {
+        font-size: 24px
+    }
+    .main_header_area {
+        background-color: #fff
+    }
+    .content-wrap.section_padding_200 {
+        padding-bottom: 100px;
+        padding-top: 100px
+    }
+    .content-wrap a img {
+        width: 120px
+    }
+    .single_about_part .feature_icon:before,
+    .single_about_part .feature_icon:after,
+    .single_about_part .feature_icon {
+        display: none
+    }
+    .xs-margin-top-30 {
+        margin-top: 30px
+    }
+    #btn-one-1>img,
+    #btn-one-2>img,
+    #btn-two-1>img,
+    #btn-two-2>img,
+    #btn-three-1>img,
+    #btn-three-2>img {
+        width: 120px
+    }
+    .welcome_area.slider-version {
+        height: 500px
+    }
+    .comining-soon-area .welcome_text_area a img,
+    .video-background a img,
+    .welcome_area.signup-form a img {
+        width: 120px
+    }
+    .welcome_area.signup-form {
+        height: 850px
+    }
+    .comining-soon-area .welcome_text_area h2 {
+        font-size: 30px
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px
+    }
+    .boxed-version {
+        width: 450px
+    }
+    .boxed-version .main_header_area.sticky {
+        left: 50%;
+        margin-left: -225px;
+        width: 450px
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .container {
+        width: 550px
+    }
+    .boxed-version {
+        width: 550px
+    }
+    .boxed-version .main_header_area.sticky {
+        left: 50%;
+        margin-left: -275px;
+        width: 550px
+    }
+    .welcome_area.video-background {
+        height: 700px
+    }
+    .welcome_area.signup-form {
+        height: 750px
+    }
+}
