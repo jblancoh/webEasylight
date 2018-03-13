@@ -44,7 +44,9 @@
 }
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   .img_banner_xs{
+    padding-top: 20%  !important;
     display: block !important;
+    height: 300px;
   }
   .img_banner_l{
     display: none !important;
@@ -53,11 +55,14 @@
       padding-top: 100px !important;
       /*margin-top: 150px !important*/
   }
+  .welcome_area{
+    height: 350px !important;
+  }
   .welcome_area.slider-version {
-      height: 500px !important;
+      min-height: 350px !important;
   }
   .slidea{
-    height: 500px !important;
+    height: 360px !important;
   }
   .logo_responsive{
       display: block;
@@ -86,4 +91,5 @@
   .align_stores{
     padding-bottom: 10em;
   }
+
 }
