@@ -83,13 +83,23 @@
 
     }
     .slidea{
-      height: 100%;
+      height: 350px;
     }
 
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px)  {
   .align_stores{
     padding-bottom: 10em;
+  }
+
+}
+@media only screen and (min-width: 1299px){
+  .slidea{
+    height: 900px !important;
+  }
+  .section_padding{
+    padding-top: 250px !important;
+
   }
 
 }
