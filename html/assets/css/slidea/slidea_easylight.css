@@ -30,39 +30,58 @@
 .logo_responsive{
     display: none;
 }
+.img_stores {
+  width: 30%;
+}
+@media only screen and (min-width: 1200px){
+  .slidea .slidea-background{
+    height: 100%;
+    min-width: 1200px
+  }
+}
 @media only screen and (min-width: 320px) and (max-width: 425px) {
   .col-xs-offset-2{
     margin-left: 0 !important;
   }
   .img_stores {
-    width: 45%;
+    width: 40%;
   }
   .align_stores{
     padding-bottom: 5em;
   }
 
+
+}
+@media only screen and (min-width: 320px) and (max-width: 568px) {
+  .slidea{
+    height: 350px !important;
+  }
+  .img_banner_xs{
+    padding-top: 0%  !important;
+    height: 310px !important;
+  }
 }
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   .img_banner_xs{
     padding-top: 20%  !important;
     display: block !important;
-    height: 300px;
+    height: 350px;
   }
   .img_banner_l{
     display: none !important;
   }
   .section_padding{
-      padding-top: 100px !important;
+    padding-top: 100px !important;
       /*margin-top: 150px !important*/
   }
   .welcome_area{
     height: 350px !important;
   }
   .welcome_area.slider-version {
-      min-height: 350px !important;
+    min-height: 350px !important;
   }
   .slidea{
-    height: 360px !important;
+    height: 405px !important;
   }
   .logo_responsive{
       display: block;
@@ -70,6 +89,7 @@
   }
   .align_stores{
     padding-bottom: 0em;
+
   }
 }
 @media only screen and (max-width: 1199px) and (min-width: 992px){
@@ -82,17 +102,22 @@
       padding-top: 50px !important;
 
     }
-    .slidea{
-      height: 350px;
+    .slidea .slidea-background{
+      height: 100%;
+
     }
+    /* .slidea{
+      height: 350px;
+    } */
 
 }
-@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+/* @media only screen and (min-width: 768px) and (max-width: 1024px)  {
   .align_stores{
     padding-bottom: 10em;
   }
 
-}
+
+} */
 @media only screen and (min-width: 1299px){
   .slidea{
     height: 900px !important;
@@ -101,5 +126,6 @@
     padding-top: 250px !important;
 
   }
+
 
 }
