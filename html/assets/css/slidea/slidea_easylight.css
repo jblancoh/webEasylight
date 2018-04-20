@@ -15,8 +15,7 @@
   height: 650px !important;
 }
 .section_padding{
-    padding-top: 100px !important;
-    /*margin-top: 150px !important*/
+  margin-top: 150px !important
 }
 .slidea .slidea-content.slidea-content-center > .slidea-content-container{
   vertical-align: bottom;
@@ -40,9 +39,7 @@
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 425px) {
-  .col-xs-offset-2{
-    margin-left: 0 !important;
-  }
+
   .img_stores {
     width: 40%;
   }
@@ -71,8 +68,8 @@
     display: none !important;
   }
   .section_padding{
-    padding-top: 100px !important;
-      /*margin-top: 150px !important*/
+    /* padding-top: 100px !important; */
+    margin-top: 150px !important
   }
   .welcome_area{
     height: 350px !important;
@@ -99,7 +96,7 @@
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
     .section_padding{
-      padding-top: 50px !important;
+      margin-top: 50px !important;
 
     }
     .slidea .slidea-background{
@@ -123,7 +120,7 @@
     height: 900px !important;
   }
   .section_padding{
-    padding-top: 250px !important;
+    margin-top: 150px !important;
 
   }
 
